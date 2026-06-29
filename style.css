@@ -136,15 +136,14 @@ body {
 /* left section */
 .left{
   width: 330px;
+  height: 100vh;
   position: fixed;
-
   padding: 10px;
-  background-color: rgba(128, 128, 128, 0.186);
+  background-color: rgba(128, 128, 128, 0.123);
   color: white;
   border-radius: 10px;
   margin-left: 10px;
   margin-top: 70px;
-
 }
 .left .para3 {
   display: flex;
@@ -152,7 +151,7 @@ body {
 }
 .left .para3 p {
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 25px;
 }
  .positive {
@@ -162,7 +161,7 @@ body {
   font-weight: 400;
 }
 .box2 {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 .left .box1 {
   width: 310px;
@@ -200,9 +199,6 @@ body {
   transform: scale(1.05);
 }
 
-.right {
-  color: white;
-}
 
 .sidebarfooter {
   margin-top: 100px;
@@ -238,11 +234,14 @@ body {
 /* right section */
 
 .right {
-  width: 70%;
+  /* width: 70%; */
+  width: 1000px;
   margin-top: 70px;
   margin-left: 400px;
+  color: white;
   padding: 30px 30px 0 30px;
   margin-bottom: 75px;
+  flex: 1;
   background-color: rgba(128, 128, 128, 0.122);
 }
 
@@ -297,8 +296,14 @@ body {
 
 .slider .card img {
   width: 180px;
+  height: 180px;
   border-radius: 5px;
+  background-size: cover;
   cursor: pointer;
+}
+
+#roundimage {
+  border-radius: 50%;
 }
 
 .slider .card h2 {
@@ -485,4 +490,10 @@ hr {
   font-size: 15px;
   font-weight: 800;
   border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footerbar button:hover {
+  transform: scale(1.05);
 }
