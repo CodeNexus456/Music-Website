@@ -304,6 +304,8 @@ body {
 
 #roundimage {
   border-radius: 50%;
+  height: 180px;
+  width: 180px;
 }
 
 .slider .card h2 {
